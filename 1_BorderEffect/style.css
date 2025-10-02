@@ -63,7 +63,47 @@ body {
 @keyframes movingBorder {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
+    background-image: linear-gradient(
+      60deg,
+      #ff4545,
+      #00ff99,
+      #066aff,
+      #ff0095,
+      #ff4545
+    );
   }
+
+  25% {
+    background-image: linear-gradient(
+      60deg,
+      #fcff45,
+      #00e5ff,
+      #4406ff,
+      #ff0000,
+      #ffc145
+    );
+  }
+  50% {
+    background-image: linear-gradient(
+      -60deg,
+      #58ff45,
+      #00ff99,
+      #ff06cd,
+      #ff0095,
+      #ff4545
+    );
+  }
+  75% {
+    background-image: linear-gradient(
+      -60deg,
+      #fffc45,
+      #00ff99,
+      #ff06ff,
+      #e5ff00,
+      #ff4545
+    );
+  }
+
   100% {
     transform: translate(-50%, -50%) rotate(360deg);
   }
